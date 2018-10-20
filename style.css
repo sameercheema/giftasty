@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+.button-area{
+    margin: 10px;
+}
+
+button{
+    border: none;
+    border-radius: 15px;
+    font-size:20px;
+    padding:10px;
+    margin:3px;
+    background: lightskyblue;
+}
+
+button:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none;
+}
+
+.gif-card{
+    display: inline-block;
+    border: 1px black solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.form-area{
+    margin: 5px auto 5px auto;
+    padding:15px;
+    text-align:center;
+    font-size: 24px;
+}
+
+#add-category{
+    background:#4f9aef;
+    border-radius: 10px;
+    font-size: 14px;
+    padding:10px;
+}
+
+#add-category:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#category-input{
+    font-size:20px;
+}
